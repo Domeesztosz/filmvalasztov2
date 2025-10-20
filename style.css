@@ -1,16 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: #e0eaff;
+    background: linear-gradient(135deg, #a061b3, #ce6db9);
+    color: #1eb945;
     margin: 0;
     padding: 2rem;
     min-height: 100vh;
 }
 
 h1 {
-    color: #cce4f7;
-    text-shadow: 0 0 5px #11457e;
     margin-bottom: 1.5rem;
 }
 
@@ -21,14 +19,15 @@ input {
     max-width: 320px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 0 8px #4299e1;
+    box-shadow: 0 0 8px #033b21;
     outline: none;
     margin-bottom: 1.2rem;
     transition: box-shadow 0.3s;
+    color:#05d149
 }
 
 input:focus {
-    box-shadow: 0 0 12px #a3c9ff;
+    box-shadow: 0 0 12px #420544;
 }
 
 .button-group {
@@ -36,47 +35,42 @@ input:focus {
 }
 
 button {
-    background-color: #007acc;
-    color: white;
+    background-color: #cc00a0;
+    color: rgb(59, 9, 7);
     border: none;
     border-radius: 10px;
     padding: 0.6rem 1.2rem;
     font-size: 16px;
     margin: 0.3rem;
     cursor: pointer;
-    box-shadow: 0 0 8px #005a9e;
+    box-shadow: 0 0 8px #560886;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 button:hover {
-    background-color: #87aac4;
-    box-shadow: 0 0 12px #99caff;
+    background-color: #8c0b96;
+    box-shadow: 0 0 12px #ee37ff;
 }
 
 ul {
     list-style: none;
-    padding: 1rem;
+    padding: 0;
     max-width: 320px;
     margin: 0 auto 1rem auto;
-    color: #d7e6fb;
+    color: #31152d;
     text-align: left;
-    box-shadow: 0 0 15px rgba(100, 180, 255, 0.6);
-    background: rgba(100, 180, 255, 0.15);
+    box-shadow: 0 0 10px #eb26eb;
+    background: rgba(73, 8, 70, 0.3);
     border-radius: 10px;
+    padding: 1rem;
     max-height: 200px;
     overflow-y: auto;
 }
 
 li {
-    padding: 0.3rem 0.6rem;
-    border-bottom: 1px solid rgba(100, 180, 255, 0.3);
-    background-color: rgba(100, 180, 255, 0.25);
-    color: #e0f0ff;
-    border-radius: 6px;
-    margin-bottom: 0.3rem;
-    transition: background-color 0.3s ease;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #5f226e;
 }
-
 
 li:last-child {
     border-bottom: none;
@@ -86,17 +80,15 @@ li:last-child {
     margin-top: 1.2rem;
     font-size: 1.3rem;
     font-weight: 700;
-    color: #0069db
-;
-    text-shadow: 0 0 6px #00234a
-;
+    color: #701188;
+    text-shadow: 0 0 6px #ffffff;
     min-height: 2em;
 }
 body {
   margin: 0;
   min-height: 100vh;
   transition: background 0.05s linear;
-  background-color: #001e3c; /* sötét alap */
+  background-color: #053c00; /* sötét alap */
   overflow: hidden;
 }
 .rainbow-text {
@@ -107,21 +99,21 @@ body {
 
   background: linear-gradient(
     90deg,
-    #ff0000,
-    #ff9900,
+    #470101,
+    #643d03,
     #ffff00,
-    #33ff00,
-    #00ffff,
-    #0066ff,
-    #cc00ff,
-    #ff0000
+    #135a0156,
+    #006161,
+    #022457,
+    #520166,
+    #3b0101
   );
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  animation: rainbowShift 1s linear infinite;
+  animation: rainbowShift 3s linear infinite;
 }
 
 @keyframes rainbowShift {
@@ -135,7 +127,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: #0a0a23;
+  background-color: #22831f;
   cursor: none; /* 🔵 elrejti a kurzort */
   overflow: hidden;
 }
@@ -145,7 +137,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(0, 200, 255, 0.6); /* világoskék, áttetsző */
+  background: rgba(163, 72, 190, 0.6); /* világoskék, áttetsző */
   pointer-events: none;
   animation: fadeOut 0.8s ease-out forwards;
 }
