@@ -2,6 +2,7 @@
 <html lang="hu">
 <head>
   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mit nézzek ma?</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
@@ -9,7 +10,7 @@
 <body>
   <h1 class="rainbow-text">Mit nézzek ma?</h1>
 
-  <input type="text" id="input" placeholder="Írj be filmeket, sorozatokat...">
+  <input type="text"maxlength="20" id="input" placeholder="Írj be filmeket, sorozatokat..." >
   <div class="button-group">
     <button onclick="addItem()">Hozzáadás</button>
     <button onclick="pickRandom()">Mit nézzek?</button>
