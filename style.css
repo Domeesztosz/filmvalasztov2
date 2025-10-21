@@ -55,16 +55,18 @@ button:hover {
 ul {
     list-style: none;
     padding: 0;
-    max-width: 320px;
+    max-width: 322px;
     margin: 0 auto 1rem auto;
     color: #31152d;
     text-align: left;
     box-shadow: 0 0 10px #eb26eb;
     background: rgba(73, 8, 70, 0.3);
-    border-radius: 10px;
-    padding: 1rem;
-    max-height: 200px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    max-height: 150px;
     overflow-y: auto;
+    display: none;
+    text-align: center;
 }
 
 li {
