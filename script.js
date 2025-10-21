@@ -10,6 +10,7 @@ function addItem() {
     li.textContent = value;
     document.getElementById("list").appendChild(li);
     input.value = "";
+    list.style.display = "block";
   }
 }
 
